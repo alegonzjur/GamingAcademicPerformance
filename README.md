@@ -1,0 +1,3 @@
+
+
+Enlace : https://www.kaggle.com/datasets/aiexplorer77/gaming-vs-academic-performance 
