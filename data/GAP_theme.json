@@ -1,0 +1,60 @@
+{
+  "name": "Gaming Academic Performance",
+  "dataColors": [
+    "#2E75B6",
+    "#C00000",
+    "#375623",
+    "#9DC3E6",
+    "#1F3864",
+    "#F5A623",
+    "#7B7B7B",
+    "#D9E2F3"
+  ],
+  "background": "#F5F5F5",
+  "foreground": "#262626",
+  "tableAccent": "#2E75B6",
+  "maximum": "#375623",
+  "minimum": "#C00000",
+  "null": "#7B7B7B",
+  "bad": "#C00000",
+  "neutral": "#9DC3E6",
+  "good": "#375623",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "fontFamily": [{ "value": "Segoe UI" }],
+        "fontSize": [{ "value": 11 }],
+        "color": [{ "value": "#262626" }]
+      },
+      "title": {
+        "fontColor": [{ "value": "#1F3864" }],
+        "fontSize": [{ "value": 13 }],
+        "fontFamily": [{ "value": "Segoe UI" }]
+      },
+      "background": {
+        "color": [{ "value": "#FFFFFF" }],
+        "transparency": [{ "value": 0 }]
+      },
+      "border": {
+        "color": [{ "value": "#E0E0E0" }]
+      }
+    },
+    "card": {
+      "*": {
+        "calloutValue": [
+          {
+            "fontSize": 28,
+            "fontFamily": "Segoe UI",
+            "color": { "solid": { "color": "#1F3864" } }
+          }
+        ],
+        "label": [
+          {
+            "fontSize": 11,
+            "color": { "solid": { "color": "#7B7B7B" } }
+          }
+        ]
+      }
+    }
+  }
+}
