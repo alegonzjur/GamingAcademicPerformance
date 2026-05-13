@@ -23,6 +23,7 @@ El pipeline abarca desde la limpieza de datos hasta el modelado predictivo con M
 
 ## 🔄 Pipeline
 
+
 01_limpieza_datos.ipynb
 		↓
 02_eda.ipynb
@@ -31,12 +32,13 @@ El pipeline abarca desde la limpieza de datos hasta el modelado predictivo con M
 		↓
 Dashboard Power BI
 
-| Fase | Notebook                  | Descripción                                              | Estado         |
-| ---- | ------------------------- | -------------------------------------------------------- | -------------- |
-| 1    | `01_limpieza_datos.ipynb` | Auditoría, corrección de anomalías y variables derivadas | ✅ Completado   |
-| 2    | `02_eda.ipynb`            | Análisis exploratorio y visualizaciones                  | ✅ Completado   |
-| 3    | `03_modelo_ml.ipynb`      | Clasificación, regresión y clustering                    | ✅ Completado   |
-| 4    | Power BI                  | Dashboard ejecutivo interactivo                          | 🔄 En progreso |
+
+| Fase | Notebook                  | Descripción                                              | Estado       |
+| ---- | ------------------------- | -------------------------------------------------------- | ------------ |
+| 1    | `01_limpieza_datos.ipynb` | Auditoría, corrección de anomalías y variables derivadas | ✅ Completado |
+| 2    | `02_eda.ipynb`            | Análisis exploratorio y visualizaciones                  | ✅ Completado |
+| 3    | `03_modelo_ml.ipynb`      | Clasificación, regresión y clustering                    | ✅ Completado |
+| 4    | Power BI                  | Dashboard ejecutivo interactivo                          | ✅ Completado |
 
 ## 🛠️ Tecnologías
 
@@ -179,3 +181,23 @@ Los tres predictores más importantes coinciden en clasificación y regresión:
 | 🥈 2º | `gaming_hours` | Gaming excesivo es el factor de riesgo más potente |
 | 🥉 3º | `sleep_hours` | El descanso es el tercer pilar del rendimiento |
 La coincidencia del ranking entre dos modelos de arquitectura distinta confirma la robustez de estos hallazgos.
+
+## 📊 Dashboard Power BI
+
+Dashboard interactivo de 5 páginas construido sobre los resultados del pipeline completo de análisis y modelado.
+
+### Páginas
+
+- **Resumen ejecutivo** --> KPIs globales y visión general.
+- **Análisis exploratorio** --> Distribuciones y relaciones entre variables 
+- **Modelado ML** --> Resultados y comparativa de modelos
+- **Clustering** --> Segmentación de perfiles de estudiante 
+- **Detalle estudiante** --> Exploración individual con comparativa vs media global
+
+## Capturas 
+
+#### Resumen Ejecutivo
+
+#### Clustering
+
+#### Detalle Estudiante
