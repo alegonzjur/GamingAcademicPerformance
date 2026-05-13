@@ -7,7 +7,7 @@
 **Dataset:** [Kaggle — Gaming vs Academic Performance](https://www.kaggle.com/datasets/aiexplorer77/gaming-vs-academic-performance) 
 
 
-![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-2.0-150458?logo=pandas&logoColor=white) ![Power BI|128](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black) ![Status](https://img.shields.io/badge/Estado-En%20desarrollo-orange)
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-2.0-150458?logo=pandas&logoColor=white) ![Power BI|128](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black) ![Status|112](https://img.shields.io/badge/Estado-Completado-brightgreen)
 
 ## 📌 Descripción 
 
@@ -71,7 +71,8 @@ GamingAcademicPerformance/
 │
 ├── 01_data_cleaning.ipynb
 ├── 02_eda.ipynb
-├── 03_ml_modeling.ipynb        # Próximamente
+├── 03_ml_modeling.ipynb
+├── GAP_dashboard.pbix 
 └── README.md
 ```
 
@@ -198,6 +199,13 @@ Dashboard interactivo de 5 páginas construido sobre los resultados del pipeline
 
 #### Resumen Ejecutivo
 
+![Resumen](img/DashboardResumenEjecutivo.png)
+
+
 #### Clustering
 
+![Clustering](img/DashboardClustering.png)
+
 #### Detalle Estudiante
+
+![DetalleEstudiante](img/DashboardDetalleEstudiante.png)
